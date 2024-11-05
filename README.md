@@ -1,2 +1,2 @@
 # walper.club
-My personal website
+The website of Walper Club
