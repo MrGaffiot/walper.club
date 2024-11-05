@@ -14,7 +14,7 @@ def about():
 def walper():
     return render_template("walper.html")
 
-@app.route("/WalperPedia")  
+@app.route("/walperpedia")  
 def WalperPedia():
     return render_template("WalperPedia.html")
 
