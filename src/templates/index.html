@@ -8,10 +8,10 @@
     <link rel="icon" href="{{ url_for('static', filename='walper.ico') }}" type="image/x-icon">
 </head>
 <body>
-    <a><h1 id="center">The Walper Club</h1></a>
-    <a><h2 id="bigLink">What's this?</h2></a>
-    <a><h2 id="bigLink">What's "Walper"?</h2></a>
-    <a><h2 id="bigLink">The WalperPedia</h2></a>
-    <a><h2 id="bigLink">Discord</h2></a>
+    <h1 id="center">The Walper Club</h1>
+    <a href={{ render_template('about.html') }}><h2 id="bigLink">What's this?</h2></a>
+    <a href={{ render_template('walper.html') }}><h2 id="bigLink">What's "Walper"?</h2></a>
+    <a href={{ render_template('WalperPedia.html') }}><h2 id="bigLink">The WalperPedia</h2></a>
+    <a href="discord.com"><h2 id="bigLink">Discord</h2></a>
 </body>
 </html>
