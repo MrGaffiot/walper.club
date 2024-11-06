@@ -36,3 +36,14 @@ body {
     text-align: center;
 }
 
+p{
+    color:#ffa866;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+#walperImage {
+    max-width:10%;
+    max-height:10%;
+    padding: 10px;
+}
